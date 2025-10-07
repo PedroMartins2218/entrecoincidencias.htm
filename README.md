@@ -161,7 +161,7 @@
       cards.forEach(c=>c.querySelectorAll('.opt').forEach(b=>b.setAttribute('aria-pressed','false')));res.hidden=true;window.scrollTo({top:0,behavior:'smooth'});};
     document.getElementById('share').onclick=e=>{e.preventDefault();
       const msg=encodeURIComponent('Parece que a coincidência do Panorama ainda tá rendendo assunto 😅\\nBora ver se ela se repete?');
-      window.open('https://wa.me/?text='+msg,'_blank','noopener');
+      window.open('https://wa.me/13991496607?text='+msg,'_blank','noopener');
     };
   </script>
 </body>
